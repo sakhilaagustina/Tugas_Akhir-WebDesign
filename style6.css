@@ -1,0 +1,73 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;  
+  }
+
+.container{
+    display: flex; 
+    height: 100vh;
+    
+}
+
+.register-page{
+    background: url(assets/bg-register.png);
+    background-size: cover;
+}
+
+.register-box{
+    background: rgb(255, 255, 255,0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center; 
+}
+
+.form-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.register-box input{
+    background: rgba(217, 228, 225, 0.5);
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px 30px 0px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+.register-box button{
+background-color: #108e55;
+width: 100%;
+padding: 10px;
+background-color: #69d1a2;
+color: aliceblue;
+border: none;
+cursor: pointer;
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+border-radius: 10px 30px 0px;
+}
+
+.register-box button:hover {
+    background-color: black;
+}
+
+.register-box p{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: #cc6b33;
+}
+
+.register-box a {
+    text-decoration: none;
+}

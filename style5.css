@@ -1,0 +1,72 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;  
+}
+.container{
+    display: flex; 
+    height: 100vh;
+}
+.image-side{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-side img {
+    width: 70%;
+}
+.form-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.form-box{
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-box input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-box button{
+    width: 100%;
+    padding: 10px;
+    background-color: #c53f3f;
+    color: rgb(245, 250, 248);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-box button:hover{
+background-color: #c53f3f;
+}
+
+.form-box p{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register-page{
+    background: url(assets/bg-register.png) center center fixed;
+    background-size: cover;
+}
